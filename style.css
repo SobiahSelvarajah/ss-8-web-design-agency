@@ -9,10 +9,10 @@ body {
   .mainContainer {
     flex: 1;
   }
-  .heading {
+  h1 {
     font-size: 5rem;
   }
-  .footer {
+  footer {
     text-align: right;
     color: midnightblue;
   }
