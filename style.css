@@ -1,7 +1,8 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 50px 50px 0 50px;
-    background-color: #faf9f6;
+    background-color: black;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     min-height: 95vh;
@@ -14,5 +15,31 @@ body {
   }
   footer {
     text-align: right;
-    color: midnightblue;
   }
+@media (max-width: 480px) {
+  .logo {
+    width: 6rem;
+  }
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .leftCard,
+  .rightCard {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: justify;
+  }
+  .leftCard img,
+  .rightCard img {
+    display: inline;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+  }
+  .cardText {
+    padding-bottom: 3.5rem;
+  }
+}
