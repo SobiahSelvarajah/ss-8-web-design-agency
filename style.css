@@ -77,3 +77,33 @@ body {
     width: 60%;
   }
 }
+
+/* laptop and desktop version */
+@media (min-width: 1201px) {
+  .mainContainer {
+    padding: 2rem;
+  }
+  .logo {
+    width: 7rem;
+  }
+  .heading {
+    padding-bottom: 2rem;
+  }
+  .leftCard {
+    float: left;
+    width: 50%;
+  }
+  .rightCard {
+    float: right;
+    width: 50%;
+  }
+  .leftCard img,
+  .rightCard img {
+    display: inline;
+    width: 60%;
+  }
+  .cardText {
+    width: 50%;
+    text-align: justify;
+  }
+}
